@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blue;
+}
+
+#container {
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.titolo h1,h3 {
+    color: white;
+    text-align: center;
+}
+
+.numbers {
+    margin-top: 60px;
+    font-size: 30px;
+    color: white;
+}
+
+span {
+    border: 1px solid orange;
+    padding: 20px;
+}
+
+.guess h2 {
+    color: white;
+    text-align: center;
+}
+
+.num-contain {
+    display: flex;
+    justify-content: center;
+}
+
+.num-contain h2 {
+    color: white;
+    font-size: 20px;
+}
